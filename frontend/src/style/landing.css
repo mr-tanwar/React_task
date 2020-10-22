@@ -1,0 +1,73 @@
+.landing_container {
+  background-color: whitesmoke;
+  min-height: 50vh;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.landing_container > h3 {
+  margin-top: 1em;
+}
+
+.landing_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex-wrap: wrap;
+  width: 80%;
+  height: 100%;
+}
+
+.landing_form input {
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-left: 0.5em;
+}
+.landing_form-inputContainer {
+  width: 100%;
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.landing_form-inputContainer > div {
+  display: flex;
+  align-items: center;
+
+  background-color: white;
+  width: 100%;
+  padding: 1em;
+  border-radius: 5px;
+}
+.landing_form > div > span {
+  flex-direction: column;
+}
+
+.btn {
+  padding: 0.5rem;
+  width: 100%;
+}
+.btn > button {
+  width: 60%;
+  font-size: larger;
+  background-color: lightcoral;
+  border: lightgray;
+  outline: none;
+  border-radius: 20px;
+}
+
+.errorText{
+  font-size: small;
+  width: 100%;
+  padding-left: 1.2rem;
+}
+
+.noErr{
+  display: none;
+}

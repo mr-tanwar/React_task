@@ -1,0 +1,16 @@
+.dashboard_container {
+  background-color: rgba(255, 255, 255, 0.641);
+  height: 100%;
+  width: 100%;
+}
+
+.dashboard_container > div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3em;
+  margin-top: 2em;
+}
+
+.dashboard_container > h2 {
+  margin-top: 1em;
+}

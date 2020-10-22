@@ -1,0 +1,9 @@
+.nav_container {
+  padding: 10px;
+  background-color: #364452;
+  color: whitesmoke;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
