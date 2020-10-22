@@ -4,7 +4,7 @@ Requirements :Login page fields
 Login page, it must have the following pages. a. Username b. Password c. Button(Log in) Note : Username, Password validation needed Should log in, when itâ€TMs matched with below JSON , redirectTo - EmployeeList page
 
 Steps to Start the project.
-1. Download the Project.
+1. Clone the Project.
 2. Run the "npm install" command inside the Frontend and the backend folder separately this will install node modules in both folders.
 3. Run the "npm start" command in two terminals one for the backend and another for the frontend folder.
 4. The frontend will be started on "http://localhost:8080/login" and the backend on "http://localhost:5000".
