@@ -2,6 +2,8 @@
 Requirements :Login page fields
 
 Login page, it must have the following pages. a. Username b. Password c. Button(Log in) Note : Username, Password validation needed Should log in, when itâ€TMs matched with below JSON , redirectTo - EmployeeList page
+
+JSON
 {
 "username":"hruday@gmail.com",'
 "password" :'hruday123'
